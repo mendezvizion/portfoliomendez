@@ -2462,3 +2462,11 @@ mendezvision
     justify-content: center;
     align-items: center;
 }
+
+@media screen and (min-width: 1024px) {
+    .swiper-slide img,
+    .swiper-slide video,
+    .swiper-slide iframe {
+        height: 1110px;
+    }
+}
